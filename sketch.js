@@ -4,12 +4,14 @@ var sc
 
 var hrAngle,mnAngle,scAngle
 function setup() {
-  createCanvas(800,400);
+  createCanvas(400,400);
   angleMode(DEGREES)
 }
 
 function draw() {
   background(255,255,255);  
+  translate(200,200)
+  rotate(-90)
 hr = hour();
 mn = minute();
 sc = second();
